@@ -82,7 +82,7 @@ body{
     background: #F4F4FD;
 }
 
-.filters-btn.header-link:is(:hover, :focus){
+.filters-btn:is(:hover, :focus){
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
