@@ -1,3 +1,6 @@
+:root {
+    --title-three-color: #2E2F42;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -93,8 +96,8 @@ body{
     list-style-type: none;
 }
 
-.feature-h-three {
-    color: #2E2F42;
+.feature-title-three {
+    color: var(--title-three-color,#2E2F42);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -136,8 +139,8 @@ body{
     list-style-type: none;
     background-color: #FFFFFF;
 }
-.team-h-three{
-    color: #2E2F42;
+.team-title-three{
+    color: var(--title-three-color,#2E2F42);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -201,4 +204,3 @@ body{
 .footer-paragraph {
     color: #F4F4FD;
 }
-:root {}
