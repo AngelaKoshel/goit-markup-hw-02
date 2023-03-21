@@ -13,13 +13,6 @@ body{
 .link {
     text-decoration: none;
 }
-/* .link:hover {
-    color: #404BBF;
-}
-
-.link:focus {
-    color: #404BBF;
-} */
 
 /* ----------------------------HEADER-------------------------------------- */
 
@@ -93,11 +86,11 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height:1.2;
+    letter-spacing: 0.02em;
 }
 .portfolio-filter {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.31;
+    line-height: 1.5;
     color: #434455;
 }
 /* ----------------------------FOOTER-------------------------------------- */
